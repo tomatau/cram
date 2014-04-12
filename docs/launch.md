@@ -8,8 +8,8 @@ to build your app into a single AMD bundle.
 
 curl.js can be configured in a few ways and in a few places:
 1. inside the HTML
-1. in an AMD module (a.k.a. "run module" -- **deprecated!**)
-1. in a non-modular script file (a.k.a. "run.js file" -- **preferred!**)
+2. in an AMD module (a.k.a. "run module" -- **deprecated!**)
+3. in a non-modular script file (a.k.a. "run.js file" -- **preferred!**)
 
 ## HTML configuration
 
@@ -19,7 +19,7 @@ and use Code Inference on scripts that call or load curl.js.  In an HTML file,
 there are a few ways to configure curl:
 
 1. with a global configuration object defined before curl.js is loaded
-1. by calling curl() or curl.config() with an object literal
+2. by calling curl() or curl.config() with an object literal
 
 ### Global configuration object in HTML
 
